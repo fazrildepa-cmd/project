@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Fazril — Creative Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="page">
+    <nav class="nav">
+      <div class="brand">Fana<span>Design</span></div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </nav>
+
+    <section id="home" class="hero">
+      <div class="hero-left">
+        <h1 class="name">Hi, I'm <span class="accent">Fazril Padilatul</span></h1>
+        <p class="tagline">Design is more than visuals it’s a way to tell stories. I love experimenting with color, typography, and composition to bring creative ideas to life through meaningful design.
+</p>
+        <div class="cta">
+          <a class="btn" href="#projects">See my work</a>
+          <a class="btn ghost" href="#contact">Get in touch</a>
+        </div>
+        <div class="socials">
+         <a href="https://www.instagram.com/998eternal/" target="_blank" class="instagram-link">
+  <img src="instagram-new-2022-seeklogo.png" alt="instagram" class="social-icon"><span>
+</a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="card profile-card">
+          <!-- inline SVG profile placeholder -->
+          <div class="avatar">
+            <img src="logo.jpg"Profile">
+          </div>
+          <div class="profile-info">
+            <h3>Fana Design</h3>
+            <p>Designer photograph</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I am a young designer who likes to depict my life through my designs.
+I have been learning design since I was 13 years old.
+Over the years, I’ve explored various creative fields — from graphic design and photography to product and fashion concepts.</p>
+          <p>My goal is to create visuals that not only look beautiful but also tell meaningful stories.
+Every design I make is a reflection of my emotions, experiences, and the world around me.</p>
+        </div>>I
+        <div class="about-stats">
+          <div class="stat">
+            <h3>5+</h3>
+            <p>Years experience</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-thumb">
+            <img src="parfum.jpg" alt="Project 1">
+            <img src="LAPTOP.jpg" alt="Project 2">
+          </div>
+          <div class="project-body">
+            <h3><a href="design-graphic.html" target="_blank">Design Graphic</a></h3>
+            <p>Designing simplicity that speaks volumes less noise, more meaning..</p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb">
+            <img src="foto1.jpg" alt="Project 2">
+            <img src="foto2.jpg" alt="Project 2">
+          </div>
+          <div class="project-body">
+            <h3><a href="photografi.html" target="_blank">photograph</a></h3>
+            <p>Focused on creating sharp, balanced, and emotionally driven photographs that tell stories.</p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb">
+            <img src="baju1.png" alt="Project 3">
+            <img src="JADI.jpg" alt="Project 3">
+          </div>
+          <div class="project-body">
+            <h3><a href="design-produk.html" target="_blank">Design Produk</a></h3>
+            <p>Designing clothes that tell stories where every piece expresses identity and emotion.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+   <section id="skills" class="skills">
+  <h2 class="section-title">Skills</h2>
+  <div class="skills-grid">
+    <div class="skill">
+      <img src="photoshop.png" alt="Photoshop" class="skill-icon">
+      <div class="skill-info">
+        <h4>Adobe Photoshop</h4>
+        <div class="bar"><div class="fill" style="width: 95%;"></div></div>
+        <span class="percent">75%</span>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="ilustrator.png" alt="Illustrator" class="skill-icon">
+      <div class="skill-info">
+        <h4>Adobe Illustrator</h4>
+        <div class="bar"><div class="fill" style="width: 90%;"></div></div>
+        <span class="percent">50%</span>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="lightroom.png" alt="Lightroom" class="skill-icon">
+      <div class="skill-info">
+        <h4>Adobe Lightroom</h4>
+        <div class="bar"><div class="fill" style="width: 80%;"></div></div>
+        <span class="percent">65%</span>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="after effect.png" alt="After Effects" class="skill-icon">
+      <div class="skill-info">
+        <h4>Adobe After Effects</h4>
+        <div class="bar"><div class="fill" style="width: 75%;"></div></div>
+        <span class="percent">60%</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <section id="contact" class="contact">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-grid">
+        <form class="contact-form" onsubmit="handleContact(event)">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" required>
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" required>
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="4" required></textarea>
+          </label>
+          <button class="btn" type="submit">Send message</button>
+        </form>
+        <div class="contact-info">
+          <p>Or reach me on social media:</p>
+          <ul>
+            <li><strong>Email:</strong> <a href="mailto:you@example.com">fazrildepa@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Fazril Padilatul — Built with </p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
